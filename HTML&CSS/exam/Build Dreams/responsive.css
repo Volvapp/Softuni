@@ -1,0 +1,34 @@
+  @media only screen and (max-width: 600px){
+    .home-container{
+        width: 100%;
+        position: absolute;
+        margin-left: 10px;
+    }
+    .home-hero{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    img.home-image1{
+        flex-direction: column-reverse;
+        order: -1;
+        margin: 5px 0;
+        width: 100%;
+    }
+    .home-hero-text-container{
+        width: 100%;
+        padding-right: 5rem;
+    }
+    .home-heading-container{
+        width: 100%;
+    }
+    .home-cards-container{
+        display: block;
+        width: 50px;
+    }
+    .home-cards-container img {
+        width: 20rem;
+    }
+    .home-stats{
+        align-self: flex-end;
+    }
+   }

@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 5em 0 5em;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    margin: 1em;
+    font-size: 14px;
+}
+
+a.button {
+    background-color: #ade2df;
+    padding: 0.7em;
+    border-radius: 12px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    background-color: #ade2df;
+    height: 30vh;
+    width: 80%;
+    margin: 3rem auto;
+}
+
+
+.row h1 {
+    padding-top: 3rem;
+    font-size: 45px;
+}
+
+.row p {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 14px;
+}
+
+.container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container button {
+    padding: 1em;
+    margin: 0 0.5em 0 0.5em;
+    border-radius: 7px;
+    border: hidden;
+    background-color: #000;
+    color: #fff;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.info div {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+}
+
+.div1 {
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+.div2 {
+
+    border-right: 1px solid lightgray;
+}
+
+.div3 {
+
+    border-right: 1px solid lightgray;
+}
+
+.info h2 {
+    padding-bottom: 1rem;
+}
+
+.positives {
+    display: flex;
+    justify-content: right;
+    background-color: #ade2df;
+    height: 45vh;
+    width: 80%;
+    margin: 3rem auto 0 auto;
+}
+
+.positives img {
+    height: 45vh;
+    width: auto;
+    border: 1px dashed lightgray;
+    padding-top: 0.5rem;
+}
+
+.positives div {
+    width: 60%;
+    padding-top: 4rem;
+    padding-left: 2.5rem;
+}
+
+.positives div h2 {
+    font-size: 36px;
+    width: 80%;
+    padding-bottom: 2rem;
+}
+
+.p1 {
+    font-size: 15px;
+    margin: 0.7rem 0 1rem 0;
+    width: 73%;
+}
+
+div p a {
+    color: #000;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+}
+
+.sec3 {
+    background-color: #f3f5fa;
+    height: 20vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sec3 div{
+    text-align: center;
+}
+
+.pricing-plans {
+    background-color: #ade2df;
+    padding: 0.5rem;
+    margin-top: 2.7rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: hidden;
+}
+
+.sec3 div h2{
+    font-size: 30px;
+}
+
+.plans{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    
+}
+
+.current_plan{
+    background-color: #fff;
+    margin: 1rem;
+}
+
+.current_plan ul{
+list-style: none;
+}
+
+.expand_plan{
+    background-color: #ade2df;
+    padding: 2rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.expand_plan ul{
+    list-style: none;
+}
+.plans div h3{
+    padding: 1rem 0 2.5rem 0;
+    font-size: 30px;
+}
+.plans div h3 span{
+    font-size: 12px;
+    color: #000;
+    opacity: 70%;
+}
+
+.plans div h4{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 20px;
+}
+
+.plans div ul li{
+    font-size: 13px;
+    padding-bottom: 0.5rem;
+}
+
+.plans div button{
+    margin-top: 2rem;
+    padding: 1rem 4rem 1rem 4rem;
+}
